@@ -8,7 +8,7 @@ export default function Home() {
       </div>
       <div className="grid gap-2 mt-5 text-center">
         <h1 className="text-4xl font-extrabold">Starter Template</h1>
-        <p className="text-base">This is a starter template for Next.js with Tailwind CSS, Shadcn and Mongoose!</p>
+        <p className="text-base">This is a starter template for Next.js with Tailwind CSS, Shadcn-UI, Mongoose and Clerk Auth!</p>
       </div>
       <div className="mt-8 grid gap-2">
         <div className="border p-3 rounded-md grid gap-0.5 transition hover:bg-secondary/25">
@@ -17,7 +17,20 @@ export default function Home() {
             start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env.local</span> file.
           </p>
           <div className="mt-1 font-mono bg-secondary px-1 py-0.5 text-sm">
-            MONGO_URI=<span className="bg-primary/20">"replace_with_your_mongo_url"</span>
+            MONGO_URI=<span className="bg-primary/20">"..."</span>
+          </div>
+        </div>
+
+        <div className="border p-3 rounded-md grid gap-0.5 transition hover:bg-secondary/25">
+          <h1 className="text-lg font-bold">Setup Clerk</h1>
+          <p className="text-sm">
+            start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env.local</span> file.
+          </p>
+          <div className="mt-1 font-mono bg-secondary px-1 py-0.5 text-sm">
+            NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<span className="bg-primary/20">"..."</span>
+          </div>
+          <div className="mt-1 font-mono bg-secondary px-1 py-0.5 text-sm">
+            CLERK_SECRET_KEY=<span className="bg-primary/20">"..."</span>
           </div>
         </div>
 
