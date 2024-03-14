@@ -14,7 +14,7 @@ export default function Home() {
         <div className="border p-3 rounded-md grid gap-0.5 transition hover:bg-secondary/25">
           <h1 className="text-lg font-bold">Setup Mongodb</h1>
           <p className="text-sm">
-            start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env.local</span> file.
+            start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env</span> file.
           </p>
           <div className="mt-1 font-mono bg-secondary px-1 py-0.5 text-sm">
             MONGO_URI=<span className="bg-primary/20">"..."</span>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="border p-3 rounded-md grid gap-0.5 transition hover:bg-secondary/25">
           <h1 className="text-lg font-bold">Setup Clerk</h1>
           <p className="text-sm">
-            start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env.local</span> file.
+            start by adding <span className="font-mono bg-secondary px-1 py-0.5">environment</span> values to your <span className="font-mono bg-secondary px-1 py-0.5">.env</span> file.
           </p>
           <div className="mt-1 font-mono bg-secondary px-1 py-0.5 text-sm">
             NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<span className="bg-primary/20">"..."</span>
